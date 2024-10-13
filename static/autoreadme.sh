@@ -1,6 +1,6 @@
 #!/usr/bin/zsh
 
-tree -a --noreport -L 1 $HOME/dotfiles > ./tree.md; wait
+tree -a --noreport -L 1 $DOTFILES_DEV > ./tree.md; wait
 tail -n +2 "tree.md" > "tree.tmp"; mv "tree.tmp" "tree.md"; wait
 cat ./header.md > ./readme.md; wait
 echo -e '\n<b>dotfiles</b>' >> ./readme.md; wait

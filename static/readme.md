@@ -23,9 +23,11 @@ TBD
 <pre>
 
 <b>dotfiles</b>
-├── bash_aliases -> /home/gosen/dotfiles/omz.d/aliases.zsh
+├── bash_functions
 ├── bashrc
 ├── config
+├── .git
+├── .gitignore
 ├── omz.d
 ├── profile
 ├── README.md
